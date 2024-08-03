@@ -49,14 +49,14 @@ Understanding the job market landscape is crucial for various stakeholders inclu
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/nigerian-job-market-analysis.git
-cd nigerian-job-market-analysis
+git clone https://github.com/pgshandino/Jobs-in-Nigeria.git
+cd Jobs-in-Nigeria
 ```
 
 Install the required libraries:
 
 ```bash
-pip install requests pandas beautifulsoup4 Flask Prefect dash
+pip install requests pandas beautifulsoup4 Flask Prefect
 ```
 
 ## Part 1: Web Scraping
@@ -72,7 +72,7 @@ In the first part of this project, we scrape job data from Jobberman. The script
 3. Run the script using a Python IDE or terminal:
 
 ```bash
-python scrape_jobberman.py
+python scraper.py
 ```
 
 The script will save the scraped data to a CSV file named `Jobs_NG.csv`.
