@@ -1,10 +1,7 @@
-from flask import Flask
+from . import app, df
 from flask import jsonify, request
 import json
-import pandas as pd
 
-app = Flask(__name__)
-df = pd.read_csv("data/Cleaned Jobs NG.csv")
 
 @app.route('/')
 def index():
